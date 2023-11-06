@@ -15,11 +15,11 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 public class Cuenta {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer idCuenta;
     String nombre;
     String tipoCuenta;
-    Double saldo;
-
+   //Double saldo;
 }
